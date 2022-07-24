@@ -77,7 +77,7 @@ $(() => {
                 formData.append('image', files[i]);
 			}else if(type =='ali'|type =='bjh'|type =='jd'|type =='aichat'|type =='imgkr'|type =='zhidao'|type =='zyh'|type =='chkaja'|type =='smms'){
 				var code = atob($('#token').val());
-				var api = 'https://xkx1.herokuapp.com/?token='+code+'&type='+$('#type').val();
+				var api = 'https://www.hualigs.cn/api/upload?token=24b61055c2e899dd6879f9675bb47614&apiType='+$('#type').val();
 				var maxSize = 8842880;
                 formData.append('file', files[i]);
 			}else{
